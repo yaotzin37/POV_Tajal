@@ -1,20 +1,22 @@
 const EventBus = {
-  events: {},
+    events: {},
 
-  subscribe(event, callback) {
-    if (!this.events[event]) {
-      this.events[event] = [];
+    init() {
+        console.log('EventBus inicializado');
+    },
+
+    subscribe(event, callback) {
+        if (!this.events[event]) {
+            this.events[event] = [];
+        }
+        this.events[event].push(callback);
+    },
+
+    publish(event, data) {
+        if (this.events[event]) {
+            this.events[event].forEach(callback => callback(data));
+        }
     }
-    this.events[event].push(callback);
-  },
-
-  notify(event, data) {
-    if (this.events[event]) {
-      this.events[event].forEach(callback => callback(data));
-    }
-  },
-
-  // En el futuro se podría añadir un método unsubscribe.
 };
 
 export default EventBus;
