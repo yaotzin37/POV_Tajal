@@ -1,0 +1,20 @@
+{
+  "name": "pov_tajal",
+  "version": "1.0.0",
+  "description": "Sistema de gestión para el menú y las reservas del restaurante Tajal.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backup:create": "node scripts/backup/create-backup.js",
+    "backup:restore": "node scripts/backup/restore-backup.js",
+    "menu:generate": "node scripts/generate-menu.js",
+    "menu:update": "node scripts/update-menu.js"
+  },
+  "keywords": [
+    "menu",
+    "restaurant",
+    "reservations"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "dish-001",
+    "name": "Chilaquiles",
+    "description": "Rojos o verdes, acompañados de frijoles, queso, crema y cebolla",
+    "price": "130.00",
+    "categoryId": "desayunos"
+  },
+  {
+    "id": "dish-002",
+    "name": "Huevos al gusto",
+    "description": "Mexicana, Revueltos, Con jamón, Estrellados, Omelette con salchicha o jamón",
+    "price": "120.00",
+    "categoryId": "desayunos"
+  },
+  {
+    "id": "dish-003",
+    "name": "Hot-cakes",
+    "description": "3 piezas con mantequilla, miel de maple y tocino",
+    "price": "115.00",
+    "categoryId": "desayunos"
+  },
+  {
+    "id": "dish-004",
+    "name": "Plato de fruta",
+    "description": "Papaya, melón, fresas, con miel de abeja y granola; elegir: queso cottage o yogurt natural",
+    "price": "120.00",
+    "categoryId": "desayunos"
+  },
+  {
+    "id": "dish-005",
+    "name": "Molletes salados",
+    "description": "2 molletes: frijol con queso, frijol con queso y chorizo",
+    "price": "90.00",
+    "categoryId": "desayunos"
+  },
+  {
+    "id": "dish-006",
+    "name": "Molletes Dulces",
+    "description": "2 molletes: sencillo o combinado con cajeta, mermelada de fresa, lechera, Nutella, azúcar y canela, miel",
+    "price": "95.00",
+    "categoryId": "desayunos"
+  },
+  {
+    "id": "dish-007",
+    "name": "Guacamole con picaña",
+    "description": "Guacamole tradicional con puntas de picaña al carbón",
+    "price": "250.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-008",
+    "name": "Panela asada",
+    "description": "Panela asada al carbón marinada con chimichurri",
+    "price": "120.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-009",
+    "name": "Chistorra asada",
+    "description": "Porción de chistorra asada al carbón marinada con chimichurri",
+    "price": "130.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-010",
+    "name": "Tiradito de atún",
+    "description": "Láminas de atún sobre ruedas de pepino, chile serrano y salsa sweet ponzu",
+    "price": "230.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-011",
+    "name": "Cecina",
+    "description": "150g horneada con guacamole tradicional",
+    "price": "240.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-012",
+    "name": "Tostadas de atún",
+    "description": "1 tostada de atún marinado en salsa negra con flor de aguacate",
+    "price": "120.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-013",
+    "name": "Sopa Azteca",
+    "description": "Sopa de tortilla con aguacate, queso manchego y crema",
+    "price": "95.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-014",
+    "name": "Torre Tajal de atún",
+    "description": "Atún rojo en trozos sobre aguacate",
+    "price": "280.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-015",
+    "name": "Queso fundido",
+    "description": "Con chorizo, champiñones o natural",
+    "price": "160.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-016",
+    "name": "Papa gratinada con arrachera",
+    "description": "Papa con queso gratinado y fajitas de arrachera",
+    "price": "180.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-017",
+    "name": "Papas a la francesa",
+    "description": "",
+    "price": "80.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-018",
+    "name": "Guacamole",
+    "description": "Dip con totopos",
+    "price": "70.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-019",
+    "name": "Tuétanos Tajal",
+    "description": "3 piezas al grill con esquites y salsa de la casa",
+    "price": "270.00",
+    "categoryId": "entradas"
+  },
+  {
+    "id": "dish-020",
+    "name": "Ensalada César",
+    "description": "Mix de lechugas, crotones, queso parmesano, aderezo César y pollo",
+    "price": "180.00",
+    "categoryId": "ensaladas"
+  },
+  {
+    "id": "dish-021",
+    "name": "Ensalada Premium",
+    "description": "Mix de lechuga, espinaca, queso de cabra, nuez garapiñada y pollo con aderezo de miel mostaza",
+    "price": "200.00",
+    "categoryId": "ensaladas"
+  },
+  {
+    "id": "dish-022",
+    "name": "Ensalada Tajal",
+    "description": "Mix de lechuga con pollo, espinaca, arándano, panela, fresa, frutos rojos y vinagreta",
+    "price": "200.00",
+    "categoryId": "ensaladas"
+  },
+  {
+    "id": "dish-023",
+    "name": "Ensalada Texmex",
+    "description": "Mix de lechuga, jitomate, elote, aguacate, cebolla morada, chips y arrachera con aderezo de chipotle",
+    "price": "200.00",
+    "categoryId": "ensaladas"
+  },
+  {
+    "id": "dish-024",
+    "name": "Alfredo",
+    "description": "Pasta con crema Alfredo, mantequilla y queso parmesano",
+    "price": "135.00",
+    "categoryId": "pastas"
+  },
+  {
+    "id": "dish-025",
+    "name": "Amatriciana",
+    "description": "Pasta en salsa amatriciana, guanciale y queso",
+    "price": "150.00",
+    "categoryId": "pastas"
+  },
+  {
+    "id": "dish-026",
+    "name": "Alfredo con camarón",
+    "description": "Pasta Alfredo con camarón al vino blanco y queso parmesano",
+    "price": "190.00",
+    "categoryId": "pastas"
+  },
+  {
+    "id": "dish-027",
+    "name": "Especial del chef",
+    "description": "Pasta fusilli con salsa casera estilo italiano",
+    "price": "160.00",
+    "categoryId": "pastas"
+  },
+  {
+    "id": "dish-028",
+    "name": "Especial Tajal",
+    "description": "Pasta fusilli salteada con mantequilla y vegetales al dente",
+    "price": "145.00",
+    "categoryId": "pastas"
+  },
+  {
+    "id": "dish-029",
+    "name": "Hamburguesa tradicional",
+    "description": "Carne de res, queso Americano y tocino",
+    "price": "175.00",
+    "categoryId": "hamburguesas"
+  },
+  {
+    "id": "dish-030",
+    "name": "La Consentida Tajal",
+    "description": "Rib eye 200g, receta especial",
+    "price": "220.00",
+    "categoryId": "hamburguesas"
+  },
+  {
+    "id": "dish-031",
+    "name": "Hamburguesa de camarón",
+    "description": "Camarones a la plancha con queso manchego",
+    "price": "215.00",
+    "categoryId": "hamburguesas"
+  },
+  {
+    "id": "dish-032",
+    "name": "Hamburguesa de pollo",
+    "description": "Pechuga de pollo y queso americano",
+    "price": "175.00",
+    "categoryId": "hamburguesas"
+  },
+  {
+    "id": "dish-033",
+    "name": "Arrachera 350g",
+    "description": "Con frijoles y guacamole",
+    "price": "330.00",
+    "categoryId": "cortes"
+  },
+  {
+    "id": "dish-034",
+    "name": "Rib-eye 350g",
+    "description": "Con papa al gratin y ensalada",
+    "price": "370.00",
+    "categoryId": "cortes"
+  },
+  {
+    "id": "dish-035",
+    "name": "Picaña 350g",
+    "description": "Con frijoles y guacamole",
+    "price": "300.00",
+    "categoryId": "cortes"
+  },
+  {
+    "id": "dish-036",
+    "name": "T-bone 350g",
+    "description": "Con champiñones al ajillo y elote amarillo",
+    "price": "370.00",
+    "categoryId": "cortes"
+  },
+  {
+    "id": "dish-037",
+    "name": "Cowboy 400g",
+    "description": "Con ensalada fresca y papítas al limon",
+    "price": "470.00",
+    "categoryId": "cortes"
+  },
+  {
+    "id": "dish-038",
+    "name": "Tomahawk (1kg–1.2kg)",
+    "description": "Con una ensalada especial de la casa",
+    "price": "1,200.00",
+    "categoryId": "cortes"
+  },
+  {
+    "id": "dish-039",
+    "name": "Aguachile negro de camarón (150g)",
+    "description": "",
+    "price": "205.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-040",
+    "name": "Aguachile rojo de camarón (150g)",
+    "description": "",
+    "price": "205.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-041",
+    "name": "Tacos gobernador",
+    "description": "3 tacos de camarón gratinados con aguacate",
+    "price": "250.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-042",
+    "name": "Salmón a las brasas",
+    "description": "Medallón de salmón con vegetales salteados",
+    "price": "255.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-043",
+    "name": "Atún sellado",
+    "description": "Con costra de ajonjolí y ensalada fresca",
+    "price": "245.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-044",
+    "name": "Camarones al gusto",
+    "description": "Con arroz y ensalada: a la mantequilla, a la diabla, al mojo de ajo",
+    "price": "250.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-045",
+    "name": "Pulpo estilo Tajal",
+    "description": "Pulpo a las brasas con puré de papa y ensalada",
+    "price": "420.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-046",
+    "name": "Especial Tajal",
+    "description": "Camarones empanizados de la casa",
+    "price": "230.00",
+    "categoryId": "delmar"
+  },
+  {
+    "id": "dish-047",
+    "name": "Nuggets de pollo",
+    "description": "Con papas a la francesa",
+    "price": "130.00",
+    "categoryId": "infantil"
+  },
+  {
+    "id": "dish-048",
+    "name": "Hot dogs",
+    "description": "1 pieza con papas a la francesa",
+    "price": "80.00",
+    "categoryId": "infantil"
+  },
+  {
+    "id": "dish-049",
+    "name": "Hamburguesa infantil",
+    "description": "Con papas a la francesa",
+    "price": "150.00",
+    "categoryId": "infantil"
+  },
+  {
+    "id": "dish-050",
+    "name": "Sopa de fideo con tocino",
+    "description": "",
+    "price": "90.00",
+    "categoryId": "infantil"
+  },
+  {
+    "id": "dish-051",
+    "name": "Arrachera 150g",
+    "description": "",
+    "price": "80.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-052",
+    "name": "Pollo 150g",
+    "description": "",
+    "price": "50.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-053",
+    "name": "Camarón 100g",
+    "description": "",
+    "price": "80.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-054",
+    "name": "Guacamole 150g",
+    "description": "",
+    "price": "50.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-055",
+    "name": "Frijoles 150g",
+    "description": "",
+    "price": "40.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-056",
+    "name": "Elotes (3 rebanadas)",
+    "description": "",
+    "price": "50.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-057",
+    "name": "Panela 150g",
+    "description": "",
+    "price": "50.00",
+    "categoryId": "extras"
+  },
+  {
+    "id": "dish-058",
+    "name": "Tarta de chocolate",
+    "description": "",
+    "price": "135.00",
+    "categoryId": "postres"
+  },
+  {
+    "id": "dish-059",
+    "name": "Chesscake de fresa",
+    "description": "",
+    "price": "135.00",
+    "categoryId": "postres"
+  },
+  {
+    "id": "dish-060",
+    "name": "Pastel blueberry",
+    "description": "",
+    "price": "135.00",
+    "categoryId": "postres"
+  },
+  {
+    "id": "dish-061",
+    "name": "Crees cake de sarzamora",
+    "description": "",
+    "price": "135.00",
+    "categoryId": "postres"
+  },
+  {
+    "id": "dish-062",
+    "name": "Apperol Spritz",
+    "description": "",
+    "price": "150.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-063",
+    "name": "Bloody Mary",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-064",
+    "name": "Canija",
+    "description": "",
+    "price": "120.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-065",
+    "name": "Carajillo",
+    "description": "",
+    "price": "150.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-066",
+    "name": "Clericot",
+    "description": "",
+    "price": "150.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-067",
+    "name": "Hierbabuena",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-068",
+    "name": "Margarita",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-069",
+    "name": "Michelada clara",
+    "description": "",
+    "price": "90.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-070",
+    "name": "Michelada obscura",
+    "description": "",
+    "price": "100.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-071",
+    "name": "Michelada con Camarón",
+    "description": "",
+    "price": "130.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-072",
+    "name": "Mimosa",
+    "description": "",
+    "price": "100.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-073",
+    "name": "Mojito",
+    "description": "",
+    "price": "85.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-074",
+    "name": "Piña Colada",
+    "description": "",
+    "price": "80.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-075",
+    "name": "Perla Negra",
+    "description": "",
+    "price": "165.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-076",
+    "name": "Ruso Blanco",
+    "description": "",
+    "price": "100.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-077",
+    "name": "Sangría",
+    "description": "",
+    "price": "100.00",
+    "categoryId": "cocteleria"
+  },
+  {
+    "id": "dish-078",
+    "name": "Corona",
+    "description": "",
+    "price": "45.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-079",
+    "name": "Corona Light",
+    "description": "",
+    "price": "45.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-080",
+    "name": "Modelo Especial",
+    "description": "",
+    "price": "55.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-081",
+    "name": "Negra Modelo",
+    "description": "",
+    "price": "55.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-082",
+    "name": "Pacifico",
+    "description": "",
+    "price": "45.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-083",
+    "name": "Ultra",
+    "description": "",
+    "price": "55.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-084",
+    "name": "Victoria",
+    "description": "",
+    "price": "45.00",
+    "categoryId": "cervezas-normales"
+  },
+  {
+    "id": "dish-085",
+    "name": "Colimitas",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cervezas-artesanales"
+  },
+  {
+    "id": "dish-086",
+    "name": "Colimita Lager",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cervezas-artesanales"
+  },
+  {
+    "id": "dish-087",
+    "name": "Paromo",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cervezas-artesanales"
+  },
+  {
+    "id": "dish-088",
+    "name": "Piedra Lisa",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cervezas-artesanales"
+  },
+  {
+    "id": "dish-089",
+    "name": "Ticus",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "cervezas-artesanales"
+  },
+  {
+    "id": "dish-090",
+    "name": "30-30 Blanco",
+    "description": "",
+    "price": "Copeo $75.00 / Botella $980.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-091",
+    "name": "30-30 Cristalino",
+    "description": "",
+    "price": "Copeo $120.00 / Botella $1,575.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-092",
+    "name": "30-30 Reposado",
+    "description": "",
+    "price": "Copeo $75.00 / Botella $900.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-093",
+    "name": "1800 Blanco",
+    "description": "",
+    "price": "Copeo $125.00 / Botella $1,445.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-094",
+    "name": "1800 Cristalino",
+    "description": "",
+    "price": "Copeo $130.00 / Botella $1,655.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-095",
+    "name": "1800 Reposado",
+    "description": "",
+    "price": "Copeo $130.00 / Botella $1,500.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-096",
+    "name": "7 Leguas Blanco",
+    "description": "",
+    "price": "Copeo $130.00 / Botella $1,450.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-097",
+    "name": "7 Leguas Reposado",
+    "description": "",
+    "price": "Copeo $125.00 / Botella $1,400.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-098",
+    "name": "Antiguo Plata",
+    "description": "",
+    "price": "Copeo $110.00 / Botella $1,200.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-099",
+    "name": "Cascahuin Blanco",
+    "description": "",
+    "price": "Copeo $130.00 / Botella $1,650.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-100",
+    "name": "Centenario Plata",
+    "description": "",
+    "price": "Copeo $75.00 / Botella $1,000.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-101",
+    "name": "Centenario Reposado",
+    "description": "",
+    "price": "Copeo $75.00 / Botella $1,000.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-102",
+    "name": "Dobel Diamante",
+    "description": "",
+    "price": "145.00 / 1,885.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-103",
+    "name": "Don Julio 70",
+    "description": "",
+    "price": "200.00 / 2,150.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-104",
+    "name": "Don Julio Blanco",
+    "description": "",
+    "price": "130.00 / 1,650.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-105",
+    "name": "Don Julio Reposado",
+    "description": "",
+    "price": "165.00 / 1,935.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-106",
+    "name": "Herradura Blanco",
+    "description": "",
+    "price": "115.00 / 1,300.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-107",
+    "name": "Herradura Plata",
+    "description": "",
+    "price": "130.00 / 1,600.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-108",
+    "name": "Herradura Reposado",
+    "description": "",
+    "price": "115.00 / 1,300.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-109",
+    "name": "Herradura Ultra",
+    "description": "",
+    "price": "150.00 / 1,850.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-110",
+    "name": "San Matias Cristalino",
+    "description": "",
+    "price": "200.00 / 2,100.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-111",
+    "name": "Tradicional Plata",
+    "description": "",
+    "price": "85.00 / 955.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-112",
+    "name": "Tradicional Reposado",
+    "description": "",
+    "price": "85.00 / 955.00",
+    "categoryId": "tequila"
+  },
+  {
+    "id": "dish-113",
+    "name": "Martell V.S.O.P.",
+    "description": "",
+    "price": "Copeo $220.00 / Botella $2,650.00",
+    "categoryId": "cognac"
+  },
+  {
+    "id": "dish-114",
+    "name": "Hennessy V.S.O.P.",
+    "description": "",
+    "price": "Copeo $265.00 / Botella $3,200.00",
+    "categoryId": "cognac"
+  },
+  {
+    "id": "dish-115",
+    "name": "Torres 10",
+    "description": "",
+    "price": "Copeo $70.00 / Botella $845.00",
+    "categoryId": "brandy"
+  },
+  {
+    "id": "dish-116",
+    "name": "Alta Luz",
+    "description": "",
+    "price": "Copeo $125.00 / Botella $1,500.00",
+    "categoryId": "brandy"
+  },
+  {
+    "id": "dish-117",
+    "name": "Bacardi 8",
+    "description": "",
+    "price": "Copeo $210.00 / Botella $2,200.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-118",
+    "name": "Bacardi Añejo",
+    "description": "",
+    "price": "Copeo $60.00 / Botella $800.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-119",
+    "name": "Bacardi Blanco",
+    "description": "",
+    "price": "Copeo $60.00 / Botella $800.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-120",
+    "name": "Bacardi Mango",
+    "description": "",
+    "price": "Copeo $50.00 / Botella $700.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-121",
+    "name": "Flor de Caña 12",
+    "description": "",
+    "price": "Copeo $190.00 / Botella $1,650.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-122",
+    "name": "Habana 7",
+    "description": "",
+    "price": "Copeo $100.00 / Botella $1,350.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-123",
+    "name": "Malibu",
+    "description": "",
+    "price": "Copeo $65.00 / Botella $850.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-124",
+    "name": "Zacapa 23",
+    "description": "",
+    "price": "Copeo $210.00 / Botella $2,650.00",
+    "categoryId": "ron"
+  },
+  {
+    "id": "dish-125",
+    "name": "Black Label",
+    "description": "",
+    "price": "Copeo $220.00 / Botella $2,255.00",
+    "categoryId": "whisky"
+  },
+  {
+    "id": "dish-126",
+    "name": "Buchanas 12",
+    "description": "",
+    "price": "Copeo $225.00 / Botella $2,400.00",
+    "categoryId": "whisky"
+  },
+  {
+    "id": "dish-127",
+    "name": "Buchanas Two Souls",
+    "description": "",
+    "price": "Copeo $225.00 / Botella $2,450.00",
+    "categoryId": "whisky"
+  },
+  {
+    "id": "dish-128",
+    "name": "Chivas 12",
+    "description": "",
+    "price": "Copeo $210.00 / Botella $2,150.00",
+    "categoryId": "whisky"
+  },
+  {
+    "id": "dish-129",
+    "name": "Old Par",
+    "description": "",
+    "price": "Copeo $200.00 / Botella $2,100.00",
+    "categoryId": "whisky"
+  },
+  {
+    "id": "dish-130",
+    "name": "Red Label",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "whisky"
+  },
+  {
+    "id": "dish-131",
+    "name": "Absolut Azul",
+    "description": "",
+    "price": "Copeo $65.00 / Botella $1,000.00",
+    "categoryId": "vodka"
+  },
+  {
+    "id": "dish-132",
+    "name": "Absolut Citron",
+    "description": "",
+    "price": "Copeo $65.00 / Botella $1,000.00",
+    "categoryId": "vodka"
+  },
+  {
+    "id": "dish-133",
+    "name": "Absolut Mandarina",
+    "description": "",
+    "price": "Copeo $65.00 / Botella $1,000.00",
+    "categoryId": "vodka"
+  },
+  {
+    "id": "dish-134",
+    "name": "Absolut Rasberri",
+    "description": "",
+    "price": "Copeo $65.00 / Botella $1,000.00",
+    "categoryId": "vodka"
+  },
+  {
+    "id": "dish-135",
+    "name": "Grey Goose",
+    "description": "",
+    "price": "Copeo $145.00 / Botella $1,950.00",
+    "categoryId": "vodka"
+  },
+  {
+    "id": "dish-136",
+    "name": "Beefeater",
+    "description": "",
+    "price": "Copeo $120.00 / Botella $1,500.00",
+    "categoryId": "ginebra"
+  },
+  {
+    "id": "dish-137",
+    "name": "Bombay",
+    "description": "",
+    "price": "Copeo $110.00 / Botella $1,550.00",
+    "categoryId": "ginebra"
+  },
+  {
+    "id": "dish-138",
+    "name": "Hendricks",
+    "description": "",
+    "price": "Copeo $200.00 / Botella $2,000.00",
+    "categoryId": "ginebra"
+  },
+  {
+    "id": "dish-139",
+    "name": "London N.1",
+    "description": "",
+    "price": "Copeo $215.00 / Botella $2,400.00",
+    "categoryId": "ginebra"
+  },
+  {
+    "id": "dish-140",
+    "name": "Tanqueray",
+    "description": "",
+    "price": "Copeo $130.00 / Botella $1,750.00",
+    "categoryId": "ginebra"
+  },
+  {
+    "id": "dish-141",
+    "name": "400 Conejos (Joven)",
+    "description": "",
+    "price": "Copeo $115.00 / Botella $1,400.00",
+    "categoryId": "mezcal"
+  },
+  {
+    "id": "dish-142",
+    "name": "Agua Maldita",
+    "description": "",
+    "price": "Copeo $115.00 / Botella $1,450.00",
+    "categoryId": "mezcal"
+  },
+  {
+    "id": "dish-143",
+    "name": "Apaluz",
+    "description": "",
+    "price": "Copeo $115.00 / Botella $1,555.00",
+    "categoryId": "mezcal"
+  },
+  {
+    "id": "dish-144",
+    "name": "Monte Lobos Joven",
+    "description": "",
+    "price": "Copeo $185.00 / Botella $1,955.00",
+    "categoryId": "mezcal"
+  },
+  {
+    "id": "dish-145",
+    "name": "Baileys",
+    "description": "",
+    "price": "90.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-146",
+    "name": "Chambord",
+    "description": "",
+    "price": "135.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-147",
+    "name": "Frangelico",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-148",
+    "name": "Hipnotic",
+    "description": "",
+    "price": "Copeo $140.00 / Botella $1,750.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-149",
+    "name": "Jagermeister",
+    "description": "",
+    "price": "Copeo $100.00 / Botella $1,500.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-150",
+    "name": "Kahlúa",
+    "description": "",
+    "price": "55.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-151",
+    "name": "Licor 43",
+    "description": "",
+    "price": "100.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-152",
+    "name": "Vacari Blanco",
+    "description": "",
+    "price": "85.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-153",
+    "name": "Vacari Negro",
+    "description": "",
+    "price": "85.00",
+    "categoryId": "licores"
+  },
+  {
+    "id": "dish-154",
+    "name": "31.8",
+    "description": "",
+    "price": "Copeo $180.00 / Botella $900.00",
+    "categoryId": "vinos-tintos"
+  },
+  {
+    "id": "dish-155",
+    "name": "3V",
+    "description": "",
+    "price": "Botella $1,350.00",
+    "categoryId": "vinos-tintos"
+  },
+  {
+    "id": "dish-156",
+    "name": "Casa Madero Gran Reserva",
+    "description": "",
+    "price": "Copeo $230.00 / Botella $1,450.00",
+    "categoryId": "vinos-tintos"
+  },
+  {
+    "id": "dish-157",
+    "name": "Portillo",
+    "description": "",
+    "price": "Copeo $120.00 / Botella $1,450.00",
+    "categoryId": "vinos-tintos"
+  },
+  {
+    "id": "dish-158",
+    "name": "31.8",
+    "description": "",
+    "price": "Copeo $150.00 / Botella $1,000.00",
+    "categoryId": "vinos-blancos"
+  },
+  {
+    "id": "dish-159",
+    "name": "2V",
+    "description": "",
+    "price": "Botella $1,200.00",
+    "categoryId": "vinos-blancos"
+  },
+  {
+    "id": "dish-160",
+    "name": "Agua Mineral Hethe",
+    "description": "",
+    "price": "90.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-161",
+    "name": "Botella de Agua",
+    "description": "",
+    "price": "30.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-162",
+    "name": "Café Americano",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-163",
+    "name": "Café Capuchino",
+    "description": "",
+    "price": "65.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-164",
+    "name": "Café Expresso",
+    "description": "",
+    "price": "95.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-165",
+    "name": "Chocomilk",
+    "description": "",
+    "price": "45.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-166",
+    "name": "Jugo de Naranja",
+    "description": "",
+    "price": "45.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-167",
+    "name": "Limonada de frutos rojos",
+    "description": "",
+    "price": "75.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-168",
+    "name": "Limonada",
+    "description": "",
+    "price": "75.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-169",
+    "name": "Limonada 1L",
+    "description": "",
+    "price": "140.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-170",
+    "name": "Jarra de limpnada",
+    "description": "",
+    "price": "190.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-171",
+    "name": "Naranjada",
+    "description": "",
+    "price": "75.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-172",
+    "name": "Naranjada 1L",
+    "description": "",
+    "price": "140.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-173",
+    "name": "Jarra de Naranjada",
+    "description": "",
+    "price": "190.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-174",
+    "name": "Naranjada de Maracuyá",
+    "description": "",
+    "price": "80.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-175",
+    "name": "Piñada",
+    "description": "",
+    "price": "90.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-176",
+    "name": "Soda Italiana",
+    "description": "",
+    "price": "90.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-177",
+    "name": "Red Bull",
+    "description": "",
+    "price": "100.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-178",
+    "name": "Refresco 355ml",
+    "description": "coca, squirt, agua mineral",
+    "price": "45.00",
+    "categoryId": "bebidas-sin-alcohol"
+  },
+  {
+    "id": "dish-179",
+    "name": "Cítrica",
+    "description": "",
+    "price": "65.00",
+    "categoryId": "tisana"
+  },
+  {
+    "id": "dish-180",
+    "name": "Frutos Rojos",
+    "description": "",
+    "price": "75.00",
+    "categoryId": "tisana"
+  }
+]
