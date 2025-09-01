@@ -1,0 +1,137 @@
+[
+  {
+    "id": "desayunos",
+    "name": "Desayunos",
+    "parent": null
+  },
+  {
+    "id": "entradas",
+    "name": "Entradas",
+    "parent": null
+  },
+  {
+    "id": "ensaladas",
+    "name": "Ensaladas",
+    "parent": null
+  },
+  {
+    "id": "pastas",
+    "name": "Pastas",
+    "parent": null
+  },
+  {
+    "id": "hamburguesas",
+    "name": "Hamburguesas",
+    "parent": null
+  },
+  {
+    "id": "cortes",
+    "name": "Cortes",
+    "parent": null
+  },
+  {
+    "id": "delmar",
+    "name": "Del Mar",
+    "parent": null
+  },
+  {
+    "id": "infantil",
+    "name": "Menú Infantil",
+    "parent": null
+  },
+  {
+    "id": "extras",
+    "name": "Extras",
+    "parent": null
+  },
+  {
+    "id": "postres",
+    "name": "Postres",
+    "parent": null
+  },
+  {
+    "id": "bebidas",
+    "name": "Bebidas",
+    "parent": null
+  },
+  {
+    "id": "cocteleria",
+    "name": "Coctelería",
+    "parent": "bebidas"
+  },
+  {
+    "id": "cervezas-normales",
+    "name": "Cervezas Normales",
+    "parent": "bebidas"
+  },
+  {
+    "id": "cervezas-artesanales",
+    "name": "Cervezas Artesanales",
+    "parent": "bebidas"
+  },
+  {
+    "id": "tequila",
+    "name": "Tequila",
+    "parent": "bebidas"
+  },
+  {
+    "id": "cognac",
+    "name": "Cognac",
+    "parent": "bebidas"
+  },
+  {
+    "id": "brandy",
+    "name": "Brandy",
+    "parent": "bebidas"
+  },
+  {
+    "id": "ron",
+    "name": "Ron",
+    "parent": "bebidas"
+  },
+  {
+    "id": "whisky",
+    "name": "Whisky",
+    "parent": "bebidas"
+  },
+  {
+    "id": "vodka",
+    "name": "Vodka",
+    "parent": "bebidas"
+  },
+  {
+    "id": "ginebra",
+    "name": "Ginebra",
+    "parent": "bebidas"
+  },
+  {
+    "id": "mezcal",
+    "name": "Mezcal",
+    "parent": "bebidas"
+  },
+  {
+    "id": "licores",
+    "name": "Licores",
+    "parent": "bebidas"
+  },
+  {
+    "id": "vinos-tintos",
+    "name": "Vinos Tintos",
+    "parent": "bebidas"
+  },
+  {
+    "id": "vinos-blancos",
+    "name": "Vinos Blancos",
+    "parent": "bebidas"
+  },
+  {
+    "id": "bebidas-sin-alcohol",
+    "name": "Bebidas sin Alcohol",
+    "parent": "bebidas"
+  },
+  {
+    "id": "tisana",
+    "name": "Tisana",
+    "parent": "bebidas"
+  }
+]

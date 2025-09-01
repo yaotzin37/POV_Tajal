@@ -1,0 +1,25 @@
+name: Respaldo Automático
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Ejecuta diariamente a las 2 AM
+  workflow_dispatch:      # Permite ejecución manual
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Crear respaldo
+        run: node scripts/backup/create-backup.js
+
+      - name: Subir a Google Drive
+        uses: secrethub/action-google-drive@v1
+        with:
+          service-account-json: ${{ secrets.GDRIVE_SERVICE_ACCOUNT }}
+          source: ./backups/
+          destination: 'tajal-backups'
+        env:
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
