@@ -60,3 +60,65 @@ body {
     white-space: nowrap;
     padding-left: 1rem;
 }
+
+/* Estilos para el Mapa de Mesas */
+
+.table-map-container {
+    margin-top: 4rem;
+}
+
+.table-map {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.table {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.table.free {
+    background-color: #e8f5e9; /* Verde claro */
+    border-color: #a5d6a7;
+}
+
+.table.reserved {
+    background-color: #ffebee; /* Rojo claro */
+    border-color: #ef9a9a;
+    color: #c62828;
+}
+
+.table:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.table-capacity {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.table-location {
+    font-size: 0.8rem;
+    color: #777;
+    font-style: italic;
+}
+
+.table-status {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}

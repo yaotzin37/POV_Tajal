@@ -1,30 +1,33 @@
-// Espera a que el DOM esté completamente cargado para evitar errores
+import TableMap from './components/TableMap.js';
+
 document.addEventListener('DOMContentLoaded', () => {
   const appRoot = document.getElementById('app-root');
 
-  // Verifica que el contenedor principal exista antes de hacer nada
   if (!appRoot) {
     console.error('Error: No se encontró el elemento raíz de la aplicación (#app-root).');
     return;
   }
 
-  // Carga el menú usando fetch
-  fetch('menu.html')
-    .then(response => {
-      // Si hay un error en la carga (ej. archivo no encontrado), lo reporta
-      if (!response.ok) {
-        throw new Error(`Error al cargar el menú: ${response.status} ${response.statusText}`);
-      }
-      return response.text(); // Convierte la respuesta a texto (HTML)
-    })
-    .then(html => {
-      // Inserta el HTML del menú dentro del contenedor principal
-      appRoot.innerHTML = html;
-      console.log('Menú cargado exitosamente en la página principal.');
-    })
-    .catch(error => {
-      // Si algo falla, muestra un mensaje de error en la consola y en la página
-      console.error('Fallo al cargar el menú:', error);
-      appRoot.innerHTML = '<p style="color: red; text-align: center;">Lo sentimos, no se pudo cargar el menú. Por favor, intente de nuevo más tarde.</p>';
-    });
+  // Cargar todos los datos necesarios en paralelo
+  Promise.all([
+    fetch('menu.html').then(res => res.ok ? res.text() : Promise.reject(`Error ${res.status}`)),
+    fetch('data/tables/tables.json').then(res => res.ok ? res.json() : Promise.reject(`Error ${res.status}`)),
+    fetch('data/tables/reservations.json').then(res => res.ok ? res.json() : Promise.reject(`Error ${res.status}`))
+  ])
+  .then(([menuHtml, tables, reservations]) => {
+    // Renderizar el menú
+    appRoot.innerHTML = menuHtml;
+    console.log('Menú cargado exitosamente.');
+
+    // Renderizar el mapa de mesas
+    const tableMap = new TableMap(tables, reservations);
+    const tableMapElement = tableMap.render();
+    appRoot.appendChild(tableMapElement);
+    console.log('Mapa de mesas cargado exitosamente.');
+
+  })
+  .catch(error => {
+    console.error('Fallo al cargar los datos de la aplicación:', error);
+    appRoot.innerHTML = '<p style="color: red; text-align: center;">Lo sentimos, no se pudo cargar la aplicación. Por favor, intente de nuevo más tarde.</p>';
+  });
 });
