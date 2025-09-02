@@ -3,7 +3,7 @@ const path = require('path');
 const archiver = require('archiver');
 
 const PROJECT_ROOT = path.resolve(__dirname, '../../');
-const DATA_DIR = path.join(PROJECT_ROOT, 'data');
+const DATA_DIR = path.join(PROJECT_ROOT, 'public', 'data');
 const BACKUP_DIR = path.join(PROJECT_ROOT, 'backups');
 const TIMESTAMP = new Date().toISOString().replace(/[:.]/g, '-');
 const BACKUP_FILE = `backup-${TIMESTAMP}.zip`;

@@ -6,7 +6,7 @@ console.log("Generando menú...");
 
 try {
     // Rutas a los archivos de datos y al archivo de salida
-    const dataPath = path.join(__dirname, '..', 'data', 'menu', 'current');
+        const dataPath = path.join(__dirname, '..', 'public', 'data', 'menu', 'current');
     const outputPath = path.join(__dirname, '..', 'public', 'menu.html');
 
     // Leer los datos de los archivos JSON

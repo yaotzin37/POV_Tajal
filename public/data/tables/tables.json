@@ -1,0 +1,22 @@
+[
+  {
+    "id": "table-1",
+    "capacity": 4,
+    "location": "terraza"
+  },
+  {
+    "id": "table-2",
+    "capacity": 4,
+    "location": "terraza"
+  },
+  {
+    "id": "table-3",
+    "capacity": 2,
+    "location": "salon"
+  },
+  {
+    "id": "table-4",
+    "capacity": 6,
+    "location": "salon"
+  }
+]

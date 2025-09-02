@@ -1,0 +1,16 @@
+[
+  {
+    "id": "res-1",
+    "tableId": "table-3",
+    "customerName": "Juan Perez",
+    "reservationTime": "2025-09-02T20:00:00",
+    "partySize": 2
+  },
+  {
+    "id": "res-2",
+    "tableId": "table-1",
+    "customerName": "Ana Gomez",
+    "reservationTime": "2025-09-02T21:00:00",
+    "partySize": 4
+  }
+]

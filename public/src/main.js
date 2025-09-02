@@ -8,23 +8,21 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Cargar todos los datos necesarios en paralelo
   Promise.all([
     fetch('menu.html').then(res => res.ok ? res.text() : Promise.reject(`Error ${res.status}`)),
     fetch('data/tables/tables.json').then(res => res.ok ? res.json() : Promise.reject(`Error ${res.status}`)),
     fetch('data/tables/reservations.json').then(res => res.ok ? res.json() : Promise.reject(`Error ${res.status}`))
   ])
   .then(([menuHtml, tables, reservations]) => {
-    // Renderizar el menú
-    appRoot.innerHTML = menuHtml;
-    console.log('Menú cargado exitosamente.');
+    const parser = new DOMParser();
+    const menuDoc = parser.parseFromString(menuHtml, 'text/html');
+    const menuContent = menuDoc.body.innerHTML;
 
-    // Renderizar el mapa de mesas
+    appRoot.innerHTML = menuContent;
+
     const tableMap = new TableMap(tables, reservations);
     const tableMapElement = tableMap.render();
     appRoot.appendChild(tableMapElement);
-    console.log('Mapa de mesas cargado exitosamente.');
-
   })
   .catch(error => {
     console.error('Fallo al cargar los datos de la aplicación:', error);
