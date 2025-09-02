@@ -1,0 +1,23 @@
+
+==============================
+REPORTE DIARIO - TAJAL
+Fecha: 2025-09-01
+==============================
+
+📊 Resumen de Ventas
+------------------------------
+Ventas Totales: $15750.50
+Número de Transacciones: 85
+Ticket Promedio: $185.30
+
+💳 Método de Pago
+------------------------------
+Efectivo: 60.0%
+Tarjeta:  40.0%
+
+🌮 Platos Más Vendidos
+------------------------------
+1. Tacos al Pastor: 45 unidades
+2. Guacamole: 30 unidades
+3. Margarita: 50 unidades
+==============================
