@@ -1,14 +1,62 @@
-/* Estilos principales de la aplicación */
+/* Estilos principales para el menú de Tajal */
 
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdfdfd;
+    color: #333;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+.container {
+    max-width: 900px;
+}
+
+.menu-title {
+    font-family: 'Garamond', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1a1a1a;
     text-align: center;
+    margin: 3rem 0;
+    letter-spacing: 2px;
+}
+
+.category-title {
+    font-family: 'Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.8rem;
+    color: #8B4513; /* SaddleBrown */
+}
+
+.dish-row {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.dish-details {
+    flex-grow: 1;
+}
+
+.dish-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.dish-description {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+.dish-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    padding-left: 1rem;
 }

@@ -16,5 +16,8 @@
     "reservations"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.3.1"
+  }
 }
